@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('burger.jpg');
+    background-size: cover;
+}
+
+.divs{
+    margin-top: 50px;
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+#h1_homepage{
+    position: relative;
+    bottom: 250px;
+    font-size: 100px;
+    color: red;
+}
+
+#signInBtn{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 100px;
+    font-size: 30px;
+    background-color: red;
+}
+
+#signUpBtn{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 100px;
+    font-size: 30px;
+    background-color: red;
+}
+
+::placeholder{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#homePageDiv{
+    position: relative;
+    top: 250px;
+}
+
+#signInPageDiv{
+    position: relative;
+    top: 150px;
+}
+
+#h1_signinpage{
+    position: relative;
+    bottom: 200px;
+    font-size: 100px;
+    color: red;
+}
+
+#signInPageBtn{
+    background-color: red;
+    border: 1px solid white;
+    width: 350px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+#signUpPageDiv input{
+    margin: 5px;
+}
+
+#signUpPageDiv{
+    position: relative;
+    top: 140px;
+}
+
+#h1_signuppage{
+    position: relative;
+    bottom: 160px;
+    font-size: 80px;
+    color: red;
+}
+
+#secondSignUpPageDiv{
+    position: relative;
+    bottom: 130px;
+}
+
+#signUpPageBtn{
+    background-color: red;
+    border: 1px solid white;
+}
+
+#secondSignInPageDiv{
+    position: relative;
+    bottom: 100px;
+}
+
+#h1_menu{
+    color: red;
+    font-size: 80px;
+}
+
+#menuDiv{
+    background: url('menu.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 800px;
+    height: 650px;
+    border-radius: 5%;
+}
+
+#burgerMenuDiv{
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+#customer{
+    color: white;
+}
+
+#customerName{
+    color: white;
+}

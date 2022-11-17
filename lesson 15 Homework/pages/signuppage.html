@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>signup page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    
+    <div class="divs" id="signUpPageDiv">
+        <form name="signup_form" method="post" action="/signup" onsubmit="return validSignUp()">
+            <p>
+                <h1 id="h1_signuppage">sign up</h1>
+                <br><br>
+                <div id="secondSignUpPageDiv">
+                <input name="firstName" class="firstName" type="text" placeholder="First name">
+                <br><br>
+                <input name="lastName" class="lastName" type="text" placeholder="Last name">
+                <br><br>
+                <input name="emailAddress" class="emailAddress" type="text" placeholder="Email address">
+                <br><br>
+                <input name="createPassword" class="createPassword" type="text" placeholder="Create password">
+                <br><br>
+                <input name="confirmPassword" class="confirmPassword" type="text" placeholder="Confirm password">
+                <br><br>
+                <input id="signUpPageBtn" type="submit" value="next">
+            </div>
+            </p>
+        </form>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
