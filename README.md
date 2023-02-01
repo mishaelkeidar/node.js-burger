@@ -1,4 +1,4 @@
-<h1>burger</h1>
+<h1>Burger</h1>
 
 <h3>about</h3>
 
